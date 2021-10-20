@@ -51,9 +51,6 @@ export const parser = function (line: string) {
   if (temp) {
     stack.push(temp)
   }
-  // console.log("Result: "+ stack);
-
-  // const stack = line.split(" ");
 
   return stack.reduce<ParsedLineType>((result, item, key) => {
     const prevItem = stack[key - 1]
