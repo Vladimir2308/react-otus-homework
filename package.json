@@ -1,31 +1,19 @@
 {
-  "name": "react-js-tutorial",
+  "name": "react-otus-homework",
   "version": "1.0.0",
   "description": "",
   "main": "lesson2/index.js",
   "scripts": {
     "build": "npx webpack --mode production",
     "calc": "npx ts-node src/lesson2",
-    "lint": "npx eslint --ext .js,.jsx,.ts,.tsx --fix ./",
-    "test": "npx jest",
-    "check": "npm test && npm run lint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run check",
-      "pre-push": "npm run check"
-    }
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickovchinnikov/react-js-tutorial.git"
+    "url": "https://github.com/Vladimir2308/react-otus-homework.git"
   },
-  "author": "Nick Ovchinnikov",
+  "author": "Vladimir Sushchen",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nickovchinnikov/react-js-tutorial/issues"
-  },
-  "homepage": "https://github.com/nickovchinnikov/react-js-tutorial#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
@@ -44,7 +32,6 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.26.1",
     "html-webpack-plugin": "^4.0.3",
-    "husky": "^4.2.3",
     "jest": "^25.2.4",
     "prettier": "^2.0.2",
     "ts-node": "^8.8.2",
