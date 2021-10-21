@@ -18,12 +18,12 @@ https://github.com/nickovchinnikov/react-js-tutorial/pull/3
 Добавлены тесты
 
 Установка зависимостей:
->npm i
+npm i
 Запуск тестов
->npm t
+npm t
 Запуск программы
->npm run calc
+npm run calc
 Сборка
->npm run-script build
+npm run-script build
 
 
