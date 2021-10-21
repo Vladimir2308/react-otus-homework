@@ -1,7 +1,12 @@
 const path = require('path')
 
 module.exports = {
-  entry: 'src/lesson2/index.js',
+  entry: './src/lesson2/index.js',
+  resolve: {
+    fallback: {
+      fs: false
+    }
+  },
   module: {
     rules: [
       { test: /\.svg$/, use: 'svg-inline-loader' },

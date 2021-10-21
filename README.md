@@ -16,3 +16,14 @@ https://github.com/nickovchinnikov/react-js-tutorial/pull/3
 
 Добавлена обработка текста без пробелов, формулы можно вводить прямым текстом
 Добавлены тесты
+
+Установка зависимостей:
+>npm i
+Запуск тестов
+>npm t
+Запуск программы
+>npm run calc
+Сборка
+>npm run-script build
+
+
