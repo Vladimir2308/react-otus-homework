@@ -60,10 +60,12 @@ export const parser = function (line: string) {
     const isValidOperatorPush =
       (isNumber(prevItem) &&
         !isNumber(item) &&
-        mathOperators.hasOwnProperty(item)) ||
+        // mathOperators.hasOwnProperty(item)) ||
+        Object.prototype.hasOwnProperty.call(mathOperators, item)) ||
       ((prevItem === '**' || prevItem === '!' || prevItem === ')') &&
         !isNumber(item) &&
-        mathOperators.hasOwnProperty(item)) ||
+        // mathOperators.hasOwnProperty(item)) ||
+        Object.prototype.hasOwnProperty.call(mathOperators, item)) ||
       item === '(' ||
       item === ')'
 
